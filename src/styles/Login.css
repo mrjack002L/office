@@ -1,0 +1,26 @@
+/* src/styles/Login.css */
+.login-background {
+    background-image: url('https://source.unsplash.com/featured/?office,work'); /* attractive office background */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-box {
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  

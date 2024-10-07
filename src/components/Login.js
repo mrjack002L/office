@@ -10,7 +10,7 @@ const Login = ({ onLogin }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (userId === 'admin' && password === 'admin123') {
+    if (userId === 'Svadhyaya' && password === 'Aarambh07') {
       onLogin(true);
     } else {
       alert('Invalid credentials');
